@@ -1,3 +1,6 @@
+body{
+    background-color: rgb(20, 20, 20);
+}
 nav{
     display: flex;
     align-items: center;
@@ -12,3 +15,76 @@ nav{
     letter-spacing: 1px;
     cursor: pointer;
 }
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 15px;
+}
+nav ul li a{
+    color: whitesmoke;
+    text-decoration: wavy;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+color: red;
+transition: 4ms;
+}
+.content{
+position: absolute;
+top: 60%;
+left: 35%;
+transform: translateY(-50%);
+}
+
+h1{
+    color: red;
+    margin: 20px 0 20px;
+    font-size: 75px;
+}
+
+h3{
+color: whitesmoke;
+font-size: 25px;
+margin-bottom: 50px;
+}
+
+h4{
+    color: whitesmoke;
+    letter-spacing: 2px; 
+    font-size: 20px;
+}
+#about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+#about img{
+    height: 300px;;
+    width: 200px;
+}
+
+.about-text h2{
+color: whitesmoke;
+font-size: 50px;
+text-transform: capitalize;
+margin-bottom: 20px;
+}
+.about-text h5{
+    color: whitesmoke;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+
+}.about-text p{
+    color: whitesmoke;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+    
+
+
