@@ -95,5 +95,17 @@ footer{
     align-items: center;
     gap: 20px;
 }
+#Contact{
+    text-align: center;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#Contact h2{
+    color: red;
+}
 
 
