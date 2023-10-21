@@ -33,7 +33,7 @@ transition: 4ms;
 }
 .content{
 position: absolute;
-top: 60%;
+top: 35%;
 left: 35%;
 transform: translateY(-50%);
 }
@@ -51,8 +51,8 @@ h2{
 
 h3{
 color: whitesmoke;
-font-size: 25px;
-margin-bottom: 50px;
+font-size: 50px;
+margin-bottom: 25px;
 }
 
 h4{
@@ -117,6 +117,5 @@ footer{
     text-align: center;
     color: whitesmoke;
 } 
-
 
 
