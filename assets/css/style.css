@@ -61,6 +61,7 @@ h4{
     font-size: 20px;
 }
 #about{
+    display: ;
     width: 100%;
     padding: 100px 0px;
     background-color: #191919;
@@ -102,15 +103,20 @@ footer{
 }
 #Contact{
     text-align: center;
-    color: white;
+    color: whitesmoke;
     padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
+    background-color:#101010;
 }
-#Contact h3{
-    color: red;
-}
+
+ #Projects{
+    background-color:black;
+    text-align: center;
+    color: whitesmoke;
+} 
+
 
 
